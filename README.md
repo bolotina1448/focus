@@ -1,6 +1,6 @@
 # Фокус-тетрадь 3.7
 
-[Скачать APK для Android 7.0 и новее](https://github.com/bolotina1448/focus/releases/latest/download/FokusTetrad.apk)
+[Скачать APK для Android 7.0 и новее](https://raw.githubusercontent.com/bolotina1448/focus/downloads/FokusTetrad.apk)
 
 Проект восстановлен из APK версии 3.7. Логика приложения находится в `smali/`. Это текстовое представление байткода Android. Макеты части экранов создаются программно. Ресурсы лежат в `res/`, шрифты — в `assets/`.
 
