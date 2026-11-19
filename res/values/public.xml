@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="color" name="ic_bg_color" id="0x7f010000" />
+    <public type="drawable" name="ic_notify" id="0x7f020000" />
+    <public type="mipmap" name="ic_launcher" id="0x7f030000" />
+    <public type="mipmap" name="ic_bg" id="0x7f030001" />
+    <public type="mipmap" name="ic_fg" id="0x7f030002" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="blocker_label" id="0x7f040001" />
+    <public type="string" name="blocker_desc" id="0x7f040002" />
+    <public type="xml" name="blocker_config" id="0x7f050000" />
+    <public type="xml" name="network_security_config" id="0x7f050001" />
+    <public type="raw" name="ru_root" id="0x7f060000" />
+    <public type="raw" name="ru_sub_2022" id="0x7f060001" />
+    <public type="raw" name="ru_sub_2024" id="0x7f060002" />
+</resources>

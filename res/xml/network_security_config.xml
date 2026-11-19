@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="false">ngw.devices.sberbank.ru</domain>
+        <domain includeSubdomains="false">gigachat.devices.sberbank.ru</domain>
+        <domain includeSubdomains="true">giga.chat</domain>
+        <domain includeSubdomains="true">mos.ru</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/ru_root" />
+            <certificates src="@raw/ru_sub_2022" />
+            <certificates src="@raw/ru_sub_2024" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
